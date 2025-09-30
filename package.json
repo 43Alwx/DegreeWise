@@ -1,0 +1,52 @@
+{
+  "name": "degreewise",
+  "version": "1.0.0",
+  "description": "CodePath - Smart Graduation Planner for CS Students at MSU Denver",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "format": "prettier --write .",
+    "db:generate": "prisma generate",
+    "db:push": "prisma db push",
+    "db:seed": "prisma db seed",
+    "db:studio": "prisma studio",
+    "db:migrate": "prisma migrate dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/43Alwx/DegreeWise.git"
+  },
+  "keywords": [
+    "nextjs",
+    "graduation-planner",
+    "cs",
+    "msu-denver"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/43Alwx/DegreeWise/issues"
+  },
+  "homepage": "https://github.com/43Alwx/DegreeWise#readme",
+  "dependencies": {
+    "@tailwindcss/postcss": "^4.1.13",
+    "next": "^15.5.4",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
+  },
+  "devDependencies": {
+    "@types/node": "^24.6.0",
+    "@types/react": "^19.1.16",
+    "@types/react-dom": "^19.1.9",
+    "autoprefixer": "^10.4.21",
+    "eslint": "^9.36.0",
+    "eslint-config-next": "^15.5.4",
+    "postcss": "^8.5.6",
+    "prettier": "^3.6.2",
+    "tailwindcss": "^4.1.13",
+    "typescript": "^5.9.2"
+  }
+}
